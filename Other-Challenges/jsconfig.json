@@ -1,0 +1,17 @@
+// This JSON configuration is setting up paths for TypeScript compiler options. It is telling the
+// compiler that when it encounters an import statement starting with "@" (e.g., import "@/example"),
+// it should look for the corresponding file in the "./src/" directory.
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+
+  // The `"exclude": ["node_modules", "dist"]` configuration in the JSON file is specifying
+  // directories that should be excluded from the TypeScript compilation process. In this case, the
+  // TypeScript compiler will skip compiling files located in the `node_modules` and `dist`
+  // directories. This is useful to prevent the compiler from processing unnecessary files or files
+  // that are already compiled and should not be part of the TypeScript build output.
+  "exclude": ["node_modules", "dist"]
+}

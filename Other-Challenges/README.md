@@ -1,23 +1,22 @@
-# Frontend Mentor - Tip calculator app solution
+# Frontend Mentor - Product list with cart solution
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Product list with cart challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Frontend Mentor - Tip calculator app solution](#frontend-mentor---tip-calculator-app-solution)
+- [Frontend Mentor - Product list with cart solution](#frontend-mentor---product-list-with-cart-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
-  - [Links](#links)
-    - [Source code](#source-code)
-    - [Live view](#live-view)
-  - [Description](#description)
-    - [Features:](#features)
+    - [Links](#links)
   - [My process](#my-process)
+- [Vue 3 + Vite](#vue-3--vite)
     - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
   - [Author](#author)
-  - [Got feedback for me?](#got-feedback-for-me)
+  - [Acknowledgments](#acknowledgments)
+  - [Feedback](#feedback)
 
 ## Overview
 
@@ -25,62 +24,62 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Calculate the correct tip and total cost of the bill per person
+- Add items to the cart and remove them
+- Increase/decrease the number of items in the cart
+- See an order confirmation modal when they click "Confirm Order"
+- Reset their selections when they click "Start New Order"
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- It's a responsive design from smallest to larger screen size based of the user(s) needs.
+
 
 ### Screenshot
-![](./public/design/active-states.jpg)
 
-## Links
+![](./design/active-states.jpg)
 
-### Source code
-- Solution URL: [github.com](https://github.com/Timex29/tip-calculator-app)
-  
-### Live view 
-- Live Site URL: [Tip calculator app](https://timex29.github.io/tip-calculator-app/)
-  
+### Links
 
-## Description
-
-The Tip Calculator App is a simple and user-friendly tool designed to help you quickly calculate the tip and total cost of a bill. Whether you're dining out with friends or splitting expenses, this app ensures that everyone pays their fair share without any hassle.
-
-### Features:
-- Calculate tips based on a custom percentage.
-- Split the bill among multiple people.
-- Real-time updates as you enter amounts.
-- Clean and responsive design for use on any device.
-
-This app is perfect for anyone looking to save time and avoid the confusion of mental math during group outings!
-
+- Solution URL: [https://github.com/Timex29/Product-list-with-cart](https://github.com/Timex29/Product-list-with-cart)
+- Live Site URL: [https://timex29.github.io/Product-list-with-cart](https://timex29.github.io/Product-list-with-cart/)
 
 ## My process
+
+# Vue 3 + Vite
+
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [Vite](https://vite.dev/) - Vue.js build tool
-- [Vue.js](https://vuejs.org) - Vue framework
+- CSS style
+- [json](https://www.w3schools.com/js/js_json_intro.asp) - object notation of js
+- [vuejs](https://vuejs.org/) - js framework
+- [vite](https://vitejs.dev/) - Next Generation Frontend tooling
+
+### What I learned
+
+Thanks a lot to frontendmentor, I learned more how to design(Desktop, Tabletes, Mobiles) using css with Vuejs the progressive framework, and some basics syntax of json server like how to put, and get files, update, delete, and edit.
 
 ## Author
+  - **Cornelio**
+- **Frontend Mentor:** [@Timex29](https://www.frontendmentor.io/profile/Timex29)
+- **Twitter:** [@LlagasCornelio](https://x.com/LlagasCornelio)
+- **Linkedin:** [Cornelio(Timex)LLagas](https://www.linkedin.com/in/cornelio-llagas-42529b186/)
 
-- Frontend Mentor - [@Timex29](https://www.frontendmentor.io/profile/Timex29)
-- x - [@LlagasCornelio](https://x.com/LlagasCornelio)
-- bsky.app- [@cornelio30.bsky.social](https://bsky.app/profile/cornelio30.bsky.social)
+## Acknowledgments
 
+I would like to thank you so much [Frontend Mentor](https://www.frontendmentor.io) to giving me this challenge to expand my skills. 
 
-## Got feedback for me?
+## Feedback
 
-I’d love to hear your thoughts and suggestions about this project! Whether it’s a bug you’ve found, a feature you’d like to see, or just general feedback, your input is highly valuable to me.
+We value your feedback to make this project better! 
 
-Here’s how you can provide feedback:
+- If you encounter any issues, please [open an issue](https://github.com/Timex29/Product-list-with-cart/issues).
+- Got suggestions? Start a discussion [here](https://github.com/Timex29/Product-list-with-cart/discussions).
+- Feel free to reach out directly at [jun23.llagas@gmail.com](https://mail.google.com/).
 
-1. **Report an Issue**: If you encounter a bug or problem, please [open an issue](https://github.com/Timex29/tip-calculator-app/issues).
-2. **Feature Requests**: Have an idea for improvement? Let us know by creating a feature request.
-3. **Email Us**: Prefer direct communication? Feel free to send your feedback to [https://bsky.app/profile/cornelio30.bsky.social](https://bsky.app/profile/cornelio30.bsky.social).
+Your input is greatly appreciated!
 
-I appreciate your support and contributions to making this project better!
+**Have fun building!** 🚀

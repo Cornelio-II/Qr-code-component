@@ -1,5 +1,5 @@
 {
-  "name": "tip-calculator-app",
+  "name": "product-list-with-cart",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "format": "^0.2.2",
+    "vue": "^3.4.37"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.5"
+    "@types/node": "^22.5.4",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.1"
   }
 }
