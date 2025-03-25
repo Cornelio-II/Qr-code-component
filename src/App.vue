@@ -3,9 +3,9 @@ import QrCodeComponent from './components/QrCodeComponent.vue'
 </script>
 
 <template>
-  <header>
+  <main>
     <div class="wrapper">
       <QrCodeComponent />
     </div>
-  </header>
+  </main>
 </template>
