@@ -11,6 +11,6 @@ import imageQR from '@/assets/images/image-qr-code.png'
   <div class="attribution">
     Challenge by
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded
-    by <a href="https://github.com/Timex29/Qr-code-component" target="_blank">Cornelio Llagas</a>.
+    by <a href="https://github.com/cornelio-ii/Qr-code-component" target="_blank">Cornelio Llagas</a>.
   </div>
 </template>
