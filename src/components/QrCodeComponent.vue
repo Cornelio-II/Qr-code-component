@@ -2,7 +2,8 @@
 import imageQR from '@/assets/images/image-qr-code.png'
 </script>
 <template>
-  <article>
+  <main>
+    <article>
     <div class="container">
     <header>
       <img :src="imageQR" alt="image QR code" />
@@ -18,5 +19,5 @@ import imageQR from '@/assets/images/image-qr-code.png'
     </div>
   </footer>
   </article>
-  
+  </main>
 </template>

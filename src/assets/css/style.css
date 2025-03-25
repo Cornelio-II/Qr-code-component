@@ -51,10 +51,18 @@ body {
 .attribution {
   font-size: 14px;
   text-align: center;
+ 
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+@media (hover:hover){
+  .attribution a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+  }
 }
 
 @media (min-width: 500px) {
