@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 :root {
   --white: hsl(0, 0%, 100%);
@@ -13,72 +9,75 @@
   --dark-blue: hsl(218, 44%, 22%);
 
   --box-shadow: .3125rem .3125rem .3125rem #0000001a;
+  --attribution-color: hsl(228, 45%, 44%);
+
+  --h1-font-size: clamp(1.2rem, 1rem  + 1vw, 1.5rem);
+  --fluid-16-17: clamp(1rem, 0.9821rem + 0.0893vw, 1.0625rem);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-weight: normal;
 }
 
 img {
-  max-width: clamp(18.72rem, 50vw, 37.5rem);
+  width: 100%;
+  height: auto;
   display: block;
   border-radius: 0.938rem;
   object-fit: cover;
   object-position: top center;
   cursor: pointer;
-  width: 100%;
-  height: auto;
 }
 
 body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--light-gray);
   display: grid;
-  place-content: center;
-  text-align: center;
+  place-items: center;
+  line-height: 1.2;
   min-height: 100vh;
   font-weight: 400;
-  padding: 2rem;
+  text-align: center;
 }
 
-.container {
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
   background-color: var(--white);
-  padding: 1rem;
+  padding:  1rem;
   border-radius: 0.938rem;
-  box-shadow:  var(--box-shadow);
+  max-width: clamp(18rem, 50vw, 20rem);
+  box-shadow: var(--box-shadow);
 }
 
-.container h1 {
+ h1 {
   color: var(--dark-blue);
-  margin-block-start: 1rem;
-  margin-inline-start: 3rem;
-  margin-inline-end: 2rem;
+  font-size: var(--h1-font-size);
+  font-weight: 700;
 }
 
  p {
   color: var(--grayish-blue);
-  margin-block-end: 2rem;
   margin-block-start: 1rem;
-  margin-inline-start: 3rem;
-  margin-inline-end: 3rem;
+  font-size: var(--fluid-16-17);
 }
 
-.attribution {
-  font-size: 0.75rem;
-  margin-block-end: 1rem;
-  margin-block-start: 1rem;
-  
+.attribution{
+  margin: 1rem auto;
+  font-size: 0.7rem;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--attribution-color);
   text-decoration: none;
 }
 @media (hover:hover){
   .attribution a:hover {
     text-decoration: underline;
     font-weight: 700;
-  }
-}
-
-@media (min-width: 31.25rem) {
-  .container {
-    width: 25rem;
   }
 }
