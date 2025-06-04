@@ -22,7 +22,7 @@
 }
 
 img {
-  max-width: clamp(16rem, 40vw, 18rem);
+  max-width: clamp(50%, 100vw, 100%);
   height: auto;
   display: block;
   border-radius: 0.938rem;
