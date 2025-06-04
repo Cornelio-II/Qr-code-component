@@ -22,7 +22,7 @@
 }
 
 img {
-  max-width: clamp(16rem, 100%, 20rem);
+  max-width: clamp(16rem, 40vw, 18rem);
   height: auto;
   display: block;
   border-radius: 0.938rem;
@@ -33,7 +33,7 @@ img {
 html, body {
   scroll-behavior: smooth;
   font-weight: normal;
-  tex-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -57,7 +57,6 @@ main {
   background-color: var(--white);
   padding:  1rem;
   border-radius: 0.938rem;
- 
   box-shadow: var(--box-shadow);
 }
 
