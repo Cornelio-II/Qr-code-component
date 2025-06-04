@@ -22,14 +22,21 @@
 }
 
 img {
-  max-width: clamp(50%, 100vw, 100%);
-  height: auto;
-  display: block;
+  /* max-width: clamp(50%, 100vw, 100%); */
+  max-inline-size: 100%;
+  max-block-size: 100%;
   border-radius: 0.938rem;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
   cursor: pointer;
 }
+
+picture img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
 html, body {
   scroll-behavior: smooth;
   font-weight: normal;
