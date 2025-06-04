@@ -31,11 +31,11 @@ img {
   cursor: pointer;
 }
 
-picture img {
+/* picture img {
   height: auto;
   width: 100%;
   display: block;
-}
+} */
 
 html, body {
   scroll-behavior: smooth;
